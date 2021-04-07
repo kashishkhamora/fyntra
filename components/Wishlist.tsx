@@ -67,7 +67,7 @@ function Item({ id, title,image, description, selected, onSelect }) {
       <Image source={image}/>
       <Text style={styles.title}>{title}</Text>
       <Text style={styles.description}>{description}</Text>
-      <Button  style={styles.button} title='Add to Cart'  onPress={() => onSelect(id)}
+      <Button  style={styles.button} title='Add to Bag'  onPress={() => onSelect(id)}
     />
     </View>
   );
